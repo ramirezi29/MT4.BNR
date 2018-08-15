@@ -1,7 +1,10 @@
 // Excecutes order specif. from top to bottom
 import Foundation
 
-var myTown = Town() // create an instance with the type Town ->()
+var myTown = Town(population: 10_000, stoplights: 6)
+myTown.printDescritpion()
+
+
 myTown.mayor = Mayor()
 
 let myTownsize = myTown.townSize

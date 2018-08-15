@@ -28,7 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4790F84F2120AE1500AC5823 /* MT4.BNR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MT4.BNR; sourceTree = BUILT_PRODUCTS_DIR; };
+		4790F84F2120AE1500AC5823 /* MT5.BNR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MT5.BNR; sourceTree = BUILT_PRODUCTS_DIR; };
 		4790F8522120AE1500AC5823 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4790F8592120AE6800AC5823 /* Monster2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster2.swift; sourceTree = "<group>"; };
 		4790F85B2120AE9D00AC5823 /* Zombie2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zombie2.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		4790F8462120AE1500AC5823 = {
 			isa = PBXGroup;
 			children = (
-				4790F8512120AE1500AC5823 /* MT4.BNR */,
+				4790F8512120AE1500AC5823 /* MT5.BNR */,
 				4790F8502120AE1500AC5823 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,12 +59,12 @@
 		4790F8502120AE1500AC5823 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4790F84F2120AE1500AC5823 /* MT4.BNR */,
+				4790F84F2120AE1500AC5823 /* MT5.BNR */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4790F8512120AE1500AC5823 /* MT4.BNR */ = {
+		4790F8512120AE1500AC5823 /* MT5.BNR */ = {
 			isa = PBXGroup;
 			children = (
 				4790F8522120AE1500AC5823 /* main.swift */,
@@ -74,15 +74,15 @@
 				4790F85B2120AE9D00AC5823 /* Zombie2.swift */,
 				4790F85D2120AEC300AC5823 /* Town2.swift */,
 			);
-			path = MT4.BNR;
+			path = MT5.BNR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4790F84E2120AE1500AC5823 /* MT4.BNR */ = {
+		4790F84E2120AE1500AC5823 /* MT5.BNR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4790F8562120AE1500AC5823 /* Build configuration list for PBXNativeTarget "MT4.BNR" */;
+			buildConfigurationList = 4790F8562120AE1500AC5823 /* Build configuration list for PBXNativeTarget "MT5.BNR" */;
 			buildPhases = (
 				4790F84B2120AE1500AC5823 /* Sources */,
 				4790F84C2120AE1500AC5823 /* Frameworks */,
@@ -92,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = MT4.BNR;
+			name = MT5.BNR;
 			productName = MonsterTown4.BNR;
-			productReference = 4790F84F2120AE1500AC5823 /* MT4.BNR */;
+			productReference = 4790F84F2120AE1500AC5823 /* MT5.BNR */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4790F84A2120AE1500AC5823 /* Build configuration list for PBXProject "MT4.BNR" */;
+			buildConfigurationList = 4790F84A2120AE1500AC5823 /* Build configuration list for PBXProject "MT5.BNR" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4790F84E2120AE1500AC5823 /* MT4.BNR */,
+				4790F84E2120AE1500AC5823 /* MT5.BNR */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +282,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4790F84A2120AE1500AC5823 /* Build configuration list for PBXProject "MT4.BNR" */ = {
+		4790F84A2120AE1500AC5823 /* Build configuration list for PBXProject "MT5.BNR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4790F8542120AE1500AC5823 /* Debug */,
@@ -291,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4790F8562120AE1500AC5823 /* Build configuration list for PBXNativeTarget "MT4.BNR" */ = {
+		4790F8562120AE1500AC5823 /* Build configuration list for PBXNativeTarget "MT5.BNR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4790F8572120AE1500AC5823 /* Debug */,

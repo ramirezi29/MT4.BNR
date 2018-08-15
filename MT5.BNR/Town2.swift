@@ -9,8 +9,8 @@ import Foundation
 
 struct Town {
     
-   static let region = "South"
-    var population = 5_422 {
+    let region: String
+    var population: Int  {
         didSet(oldPopulation) {
             if population < oldPopulation { // track changes
                 print("The population has changed to \(population) from \(oldPopulation).")
@@ -32,7 +32,17 @@ struct Town {
         }
     }
     
-    var numberOfStopLights = 4
+    var numberOfStopLights: Int
+    init(region: String, population: Int, stoplights: Int) {
+        self.region = region
+        self.population = population
+        numberOfStopLights = stoplights
+    }
+
+    init(population: Int, stoplights: Int) {
+        self.init(region: "N/A", population: population, stoplights: stoplights)
+    }
+    
     enum Size {
         case small
         case medium
@@ -56,7 +66,7 @@ struct Town {
     var isMonsterAttacking = false
     
     func printDescritpion() {
-        print("Population: \(population); number of stoplights \(numberOfStopLights)")
+        print("Population: \(population); number of stoplights \(numberOfStopLights); region: \(region)")
     }
     /*
      ---------

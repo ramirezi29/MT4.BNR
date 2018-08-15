@@ -14,7 +14,7 @@ class Monster {
     }
     var town: Town?
     // given an option, in case no monster is terrorizing the town
-    var name = "Monster"
+    var name: String
     
     var victimPool: Int { // both a getter and setter
         get {
@@ -25,6 +25,13 @@ class Monster {
         
         }
     }
+    // initializing Monster down below
+    init(town: Town?, monsterName: String) {
+        self.town = town
+        name = monsterName
+    }
+    
+//
     func terrorizeTown() {
         if town != nil {
             print("\(name) is terrorizing a town!")
